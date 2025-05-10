@@ -24,24 +24,6 @@ Flutter로 만든 기분 메모 앱입니다.
 | Freezed / JsonSerializable | 불변 데이터 모델링 및 직렬화 |
 | Flutter Test               | 단위 테스트 프레임워크       |
 
-## 📂 폴더 구조 (요약)
-
-lib/
-├── main.dart
-├── app/
-│ ├── app.dart
-│ └── router.dart
-├── features/
-│ └── mood_memo/
-│ ├── model/
-│ ├── data/
-│ ├── view/
-│ ├── viewmodel/
-│ └── widget/
-├── core/
-│ ├── constants.dart
-│ └── utils.dart
-
 ## 🔖 프로젝트 목적
 
 Flutter와 Firebase, Riverpod, GoRouter 등 업계에서 자주 사용하는 기술을 직접 적용해보며 앱 구조를 연습하고, 감성 포트폴리오용 앱을 제작하기 위함입니다.
