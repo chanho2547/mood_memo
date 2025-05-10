@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 class MoodMemo {
   final String id;
   final String content;
@@ -13,20 +12,6 @@ class MoodMemo {
     required this.moodValue,
     required this.createAt,
   });
-
-  MoodMemo copyWith({
-    String? id,
-    String? content,
-    double? moodValue,
-    DateTime? createAt,
-  }) {
-    return MoodMemo(
-      id: id ?? this.id,
-      content: content ?? this.content,
-      moodValue: moodValue ?? this.moodValue,
-      createAt: createAt ?? this.createAt,
-    );
-  }
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
@@ -50,4 +35,18 @@ class MoodMemo {
 
   factory MoodMemo.fromJson(String source) =>
       MoodMemo.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  MoodMemo copyWith({
+    String? id,
+    String? content,
+    double? moodValue,
+    DateTime? createAt,
+  }) {
+    return MoodMemo(
+      id: id ?? this.id,
+      content: content ?? this.content,
+      moodValue: moodValue ?? this.moodValue,
+      createAt: createAt ?? this.createAt,
+    );
+  }
 }
