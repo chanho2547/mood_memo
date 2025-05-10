@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
+=======
+
+# Firebase config
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase.jsonlib/firebase_options.dart
+>>>>>>> ea8e699 (firebase관련 gitignore 수정)
