@@ -43,3 +43,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase
+lib/firebase_options.dart
+
+# iOS/macOS
+ios/Flutter/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcuserdata/
+macos/Pods/
+macos/Flutter/
+*.xcuserstate
+DerivedData/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# Firebase secrets - 보안 민감 파일
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
